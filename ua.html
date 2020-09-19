@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>获取浏览器UA(userAgent)信息</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+		<table cellpadding=0 cellspacing=0 width="100%;">
+			<tr>
+				<td style="height:40px;text-align:center;font-size:16px;font-weight:bolder;">您的浏览器UA(userAgent)信息为：</td>
+			</tr>
+			<tr>
+				<td style="height:40px;text-align:center;font-size:16px;font-weight:bolder;color:red;">
+				    <script language="JavaScript" type="text/javascript">
+                        document.write(navigator.userAgent);
+                    </script>
+				</td>
+			</tr>
+			<td style="height:40px;text-align:center;font-size:16px;font-weight:bolder;">您的屏幕分辨率为：</td>
+			<tr>
+				<td style="height:40px;text-align:center;font-size:16px;font-weight:bolder;color:red;">
+				    <script language="JavaScript" type="text/javascript">
+                        document.write(window.screen.width + "×" + window.screen.height);
+                        /*
+                        window.devicePixelRatio = window.devicePixelRatio || window.screen.deviceXDPI / window.screen.logicalXDPI;
+                        window.devicePixelRatio = Math.round(window.devicePixelRatio * 100) / 100;
+                        if(navigator.userAgent.indexOf("MSIE") > 0) {
+					        //IE浏览器
+					        document.write(Math.round(window.screen.width * window.devicePixelRatio) + "×" + Math.round(window.screen.height * window.devicePixelRatio));
+					    }
+					    else {
+					    	//非IE浏览器
+					        document.write(parseInt(window.screen.width * window.devicePixelRatio) + "×" + parseInt(window.screen.height * window.devicePixelRatio));
+					    }
+					    */
+                    </script>
+				</td>
+			</tr>
+			<tr>
+				<td style="height:30px;text-align:center;font-size:12px;font-weight:bolder;">(请复制以上红色的UA(userAgent)信息和分辨率，添加到平台UA列表中)</td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
