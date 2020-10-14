@@ -112,7 +112,5 @@ nav.navbar{z-index:2000!important}
 
 nav.navbar{border:0}nav.navbar form>.btn{margin-bottom:0}nav.navbar .navbar-header .navbar-brand{padding-left:30px;padding-right:30px}
 nav.navbar .navbar-nav li a{padding-left:20px;padding-right:20px}nav.navbar.navbar-inverse .navbar-toggle i{color:#fff}
-@media print{.sidebar-menu{display:none}
-.main-content{padding:0!important}
-.main-content .user-info-navbar,.main-content .page-title,.main-content footer.main-footer{display:none}
-.main-content>.panel{margin-bottom:0}
+.navbar.horizontal-menu .navbar-inner>.nav.navbar-mobile{display:none}
+.navbar .navbar-content{position:absolute;background:#fff;width:100%;box-shadow:0 5px 20px rgba(0,0,0,.05);padding-bottom:1px}
