@@ -3,8 +3,8 @@
     { "source": "/java8/win64", "destination": "https://download.bell-sw.com/java/8u345+1/bellsoft-jre8u345+1-windows-amd64-full.msi" },
     { "source": "/java8/win32", "destination": "https://download.bell-sw.com/java/8u345+1/bellsoft-jre8u345+1-windows-i586-full.msi" },
     { "source": "/java8/macos", "destination": "https://download.bell-sw.com/java/8u345+1/bellsoft-jre8u345+1-macos-amd64-full.pkg" },
-    { "source": "/java/win64", "destination": "https://download.bell-sw.com/java/17.0.4+8/bellsoft-jre17.0.4+8-windows-amd64-full.msi" },
-    { "source": "/java/win32", "destination": "https://download.bell-sw.com/java/17.0.4+8/bellsoft-jre17.0.4+8-windows-i586-full.msi" },
-    { "source": "/java/macos", "destination": "https://download.bell-sw.com/java/17.0.4+8/bellsoft-jre17.0.4+8-macos-amd64-full.pkg" }
+    { "source": "/java/win64", "destination": "https://download.bell-sw.com/java/17.0.4.1+1/bellsoft-jre17.0.4.1+1-windows-amd64-full.msi" },
+    { "source": "/java/win32", "destination": "https://download.bell-sw.com/java/17.0.4.1+1/bellsoft-jre17.0.4.1+1-windows-i586-full.msi" },
+    { "source": "/java/macos", "destination": "https://download.bell-sw.com/java/17.0.4.1+1/bellsoft-jre17.0.4.1+1-macos-amd64-full.pkg" }
   ]
 }
